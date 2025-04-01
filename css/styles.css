@@ -10,7 +10,6 @@ header {
     color: #ffffff;
     padding: 10px 0;
     text-align: center;
-    /* make the header visible when scrolling */
     position: fixed;
     top: 0;
     width: 80%;
@@ -91,3 +90,30 @@ footer {
 }
 
 /* Add any additional styles here */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, textarea, button {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
